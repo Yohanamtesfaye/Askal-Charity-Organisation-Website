@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from '../assets/askallogo.jpg'
 const Navbar = () => {
   return (
-    <div className='flex justify-between px-8 pt- bg-white shadow-lg rounded-lg'>
+    <div className='flex justify-between px-8  bg-white shadow-lg rounded-lg'>
         <div>
           <img src={logo} width={'70px'} alt="" />
         </div>
