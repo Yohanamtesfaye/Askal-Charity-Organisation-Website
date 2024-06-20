@@ -36,9 +36,16 @@ const Navbar = () => {
           <a href="" onClick={handleNav}><span className="hover:underline text-red-500 font-bold ">Contact Us</span></a>
 
           </div>
+          <div class="relative group">
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
           <a href="" onClick={handleNav}><span className="hover:underline text-red-500 font-bold ">Become a Family</span></a>
-
+          <div class="absolute bg-white w-full text-center text-red-500 shadow-lg rounded-md py-2 px-4 hidden group-hover:block">
+                <ul>
+                  <li><a href="/" className='hover:underline'>Volunteer</a></li>
+                  <li><a href="/" className='hover:underline'>Member</a></li>
+                </ul>
+              </div>
+          </div>
           </div>
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
           <a href="" onClick={handleNav} ><span className="hover:underline text-red-500 font-bold ">Donate</span></a>
@@ -58,17 +65,17 @@ const Navbar = () => {
               <div className='hover:underline hover:text-red-600 font-bold p-0'><Link to='/aboutus'  >About Us</Link></div>
               <div className='hover:underline hover:text-red-600 font-bold'> <Link to='/gallery' >Gallery</Link></div>
               <div className='hover:underline hover:text-red-600 font-bold '> <Link to='/contactus'  >Contact Us</Link></div>
+              <div class="relative group">
               <div className='border-red-600 border text-red-500 font-bold '><Link to='/' ><div className=' py-2 px-10 hover:bg-red-500 hover:text-white '>
-               <form className=' hover:bg-red-500 hover:text-white'>
-                    <label for="family">Become A Familiy</label>
-                    <select id="family" name="family">
-                        <option value=""></option>
-                        <option value="volunteer">Volunteer</option>
-                        <option value="member">Member</option>
-                    </select>
-                </form>
-                
-              </div></Link></div> 
+               Become A Familiy</div></Link></div> 
+              <div class="absolute bg-white w-full text-center text-red-500 shadow-lg rounded-md py-2 px-4 hidden group-hover:block">
+                <ul>
+                  <li><a href="/" className='hover:underline'>Volunteer</a></li>
+                  <li><a href="/" className='hover:underline'>Member</a></li>
+                </ul>
+              </div>
+            </div>
+              
               <div className='border bg-green-600 text-white  py-4 px-8 font-bold rounded-md hover:border-green-600 hover:bg-white hover:text-green-600 '><Link to='/donate' className=''>Donate</Link></div>
             </div>
 
