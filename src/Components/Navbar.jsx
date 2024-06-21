@@ -18,7 +18,7 @@ const Navbar = () => {
         nav?
         <div>
           
-          <div onClick={handleNav} className="fixed w-full  flex flex-col justify-center items-center  bg-white/30">
+          <div onClick={handleNav} className="fixed w-full  flex flex-col justify-center items-center  bg-white">
           
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
           <a href=""> <span className="hover:underline text-red-500 font-bold ">Home</span></a>
