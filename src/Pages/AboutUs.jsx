@@ -19,14 +19,19 @@ const AboutUs = () => {
             </div>
             </div>
             <div className='  bg-gray-200 p-4 text-center font-bold w-full '>When and How Askal Was Formed?</div>
-            <div className='mt-12  p-4  text-center font-bold lg:mx-32 mb-4'>
-            <p className=''>Askal Charity Society is an indigenous non-governmental organization in Ethiopia, established in 2019 to provide universal support to children. Registered and accredited by the Civil Society Organizations Authority, Askal aims to cultivate a fruitful generation of model citizens who can positively shape the country's future. The organization began by permanently supporting 150 children, which has grown over the years. The goal is to nurture young people into productive, influential individuals who will serve their people and nation with dedication.</p></div>
-            <div className='flex flex-col md:grid md:grid-cols-3 gap-4 md:mx-20'>
-    <div className='p-4  text-center transform transition-transform duration-300 hover:-translate-y-2'>
+            <hr class="border-t-4 border-green-500 w-44 mx-auto mb-4 mt-8" />
+            <div className='mt-4  p-4  text-center font-bold lg:mx-32 mb-4 justify-center'>
+                <p className=''>Askal Charity Society is an indigenous non-governmental organization in Ethiopia, established in 2019 to provide universal support to children. Registered and accredited by the Civil Society Organizations Authority, Askal aims to cultivate a fruitful generation of model citizens who can positively shape the country's future. The organization began by permanently supporting 150 children, which has grown over the years. The goal is to nurture young people into productive, influential individuals who will serve their people and nation with dedication.</p>
+                <hr class="border-t-4 border-green-500 w-44 mx-auto mb-4 mt-6" />
+            </div>
+            <div className='flex flex-col md:grid md:grid-cols-3 gap-4 bg-gray-300 md:mx-20 rounded-lg'>
+    <div className='p-4  text-center transform transition-transform duration-300 hover:-translate-y-2 bg-white rounded-3xl m-8 shadow-2xl '>
         <div className='rounded w-40 mx-auto '>
             <img src={family} alt="Family" className='w-full rounded-full' />
         </div>
+        
         <div className='font-bold text-xl py-4'>Who We Serve</div>
+        
         <div className='font-bold'>
             <ul>
                 <li>Children</li>
@@ -34,7 +39,7 @@ const AboutUs = () => {
             </ul>
         </div>
     </div>
-    <div className='p-4 text-center transform transition-transform duration-300 hover:-translate-y-2'>
+    <div className='p-4 text-center transform transition-transform duration-300 hover:-translate-y-2  bg-white rounded-3xl m-8 shadow-2xl'>
         <div className='rounded w-40 mx-auto'>
             <img src={vision} alt="Vision" className='w-full' />
         </div>
@@ -43,7 +48,7 @@ const AboutUs = () => {
             <p>Seeing all children being cared for physically, nurtured intellectually, and developed emotionally, contributing to the nation sustainably.</p>
         </div>
     </div>
-    <div className='p-4 text-center transform transition-transform duration-300 hover:-translate-y-2'>
+    <div className='p-4 text-center transform transition-transform duration-300 hover:-translate-y-2  bg-white rounded-3xl m-8 shadow-2xl'>
         <div className='rounded w-40 mx-auto'>
             <img src={mission} alt="Mission" className='w-full rounded-full' />
         </div>
@@ -52,7 +57,7 @@ const AboutUs = () => {
             <p>Ensuring that all-encompassing support reaches children sustainably by expanding effective systems and filling gaps in child support, while being there for the children.</p>
         </div>
     </div>
-    <div className='p-4 transform transition-transform duration-300 hover:-translate-y-2'>
+    <div className='p-4 transform transition-transform duration-300 hover:-translate-y-2  bg-white rounded-3xl m-8 shadow-2xl'>
         <div className='rounded w-40 mx-auto'>
             <img src={friend} alt="Friend" className='w-full rounded-full' />
         </div>
@@ -66,7 +71,7 @@ const AboutUs = () => {
             </ul>
         </div>
     </div>
-    <div className='p-4 text-center transform transition-transform duration-300 hover:-translate-y-2'>
+    <div className='p-4 text-center transform transition-transform duration-300 hover:-translate-y-2  bg-white rounded-3xl m-8 shadow-2xl'>
         <div className='rounded w-40 mx-auto'>
             <img src={recourse} alt="Resource" className='w-full rounded-full' />
         </div>
@@ -75,7 +80,7 @@ const AboutUs = () => {
             <p>To achieve our organization's goals, even if we find individual supporters who are few and far between, instead of relying solely on guardianship, we will sustain ourselves by adopting various income-generating methods.</p>
         </div>
     </div>
-    <div className='p-4 text-center transform transition-transform duration-300 hover:-translate-y-2'>
+    <div className='p-4 text-center transform transition-transform duration-300 hover:-translate-y-2  bg-white rounded-3xl m-8 shadow-2xl'>
         <div className='rounded w-40 mx-auto'>
             <img src={location} alt="Resource" className='w-full rounded-full' />
         </div>
