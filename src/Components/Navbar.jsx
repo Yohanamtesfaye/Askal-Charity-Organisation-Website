@@ -8,7 +8,7 @@ const Navbar = () => {
     setNav(!nav);
     }
   return (
-    <div>
+    <div className='font-meri'>
       <div>
       <AiOutlineMenu size={24} onClick={handleNav} className="absolute top-4 right-4 z-[99] md:hidden text-red-600"/>
       <div className='pl-4  sm:hidden'>
@@ -21,34 +21,34 @@ const Navbar = () => {
           <div onClick={handleNav} className="fixed w-full  flex flex-col justify-center items-center  bg-white">
           
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
-          <a href=""> <span className="hover:underline text-red-500 font-bold ">Home</span></a>
+          <Link to='/'> <span className="hover:underline text-red-500 font-bold ">Home</span></Link>
 
           </div>
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
-          <a href="" onClick={handleNav} ><span className="hover:underline text-red-500 font-bold  ">About Us</span></a>
+          <Link to='/aboutus' onClick={handleNav} ><span className="hover:underline text-red-500 font-bold  ">About Us</span></Link>
 
           </div>
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
-          <a href="" onClick={handleNav}  ><span className="hover:underline text-red-500 font-bold ">Gallery</span></a>
+          <Link to='/gallery' onClick={handleNav}  ><span className="hover:underline text-red-500 font-bold ">Gallery</span></Link>
 
           </div>
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
-          <a href="" onClick={handleNav}><span className="hover:underline text-red-500 font-bold ">Contact Us</span></a>
+          <Link to='/contactus'  onClick={handleNav}><span className="hover:underline text-red-500 font-bold ">Contact Us</span></Link>
 
           </div>
           <div class="relative group">
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
-          <a href="" onClick={handleNav}><span className="hover:underline text-red-500 font-bold ">Become a Family</span></a>
+          <Link to='/' onClick={handleNav}><span className="hover:underline text-red-500 font-bold ">Become a Family</span></Link>
           <div class="absolute bg-white w-full text-center text-red-500 shadow-lg rounded-md py-2 px-4 hidden group-hover:block">
                 <ul>
-                  <li><a href="/" className='hover:underline'>Volunteer</a></li>
-                  <li><a href="/" className='hover:underline'>Member</a></li>
+                  <li><Link to='/' className='hover:underline'>Volunteer</Link></li>
+                  <li><Link to='/' className='hover:underline'>Member</Link></li>
                 </ul>
               </div>
           </div>
           </div>
           <div className='shadow-xl p-4 rounded-2xl w-56 m-2 text-center'>
-          <a href="" onClick={handleNav} ><span className="hover:underline text-red-500 font-bold ">Donate</span></a>
+          <Link to='/donate' onClick={handleNav} ><span className="hover:underline text-red-500 font-bold ">Donate</span></Link>
 
           </div>
       </div> 
@@ -70,8 +70,8 @@ const Navbar = () => {
                Become A Familiy</div></Link></div> 
               <div class="absolute bg-white w-full text-center text-red-500 shadow-lg rounded-md py-2 px-4 hidden group-hover:block">
                 <ul>
-                  <li><a href="/" className='hover:underline'>Volunteer</a></li>
-                  <li><a href="/" className='hover:underline'>Member</a></li>
+                <li><Link to='/' className='hover:underline'>Volunteer</Link></li>
+                  <li><Link to='/' className='hover:underline'>Member</Link></li>
                 </ul>
               </div>
             </div>
