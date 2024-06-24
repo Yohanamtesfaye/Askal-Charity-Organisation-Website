@@ -11,6 +11,7 @@ import Gallery from './Pages/Gallery'
 import Donate from './Pages/Donate'
 import ContactUs from './Pages/ContactUs'
 import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
 
 function App() {
   
@@ -29,6 +30,7 @@ function App() {
               <Route path='/donate' element={<Donate/>}/>
               <Route path='/contactus' element={<ContactUs/>}/>
             </Routes>
+            <Footer/>
           </BrowserRouter>
       </div>        
     </>
