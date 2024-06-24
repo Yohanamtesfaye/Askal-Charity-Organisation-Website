@@ -63,7 +63,7 @@ const Slides = () => {
           </div>
         ))}
       </Slide>
-      <p className='p-6 bg-gray-300 text-lg'>
+      <p className='p-6 bg-gray-50 text-lg'>
         <Link className='mr-3'>Home</Link> <FaArrowRight className='inline-block mr-3'/>
         <Link to='/aboutus' className='mr-3'>About Us</Link> <FaArrowRight className='inline-block mr-3'/>
         <span className='text-red-500 font-bold mr-3'>Objective</span>

@@ -30,7 +30,7 @@ const Home = () => {
       </div>
       {/* services */}
       <div >
-      <div className='bg-gray-300 py-2'>
+      <div className='bg-gray-50 py-2'>
     <h3 className='text-3xl pt-2 text-center text-gray-900 font-serif font-extralight'>What We Do</h3>
     <div className='lg:grid grid-cols-1 my-8 font-serif lg:mx-10 md:grid-cols-3 gap-5'>
       <div className='shadow-lg p-10 max-md:m-5 rounded-xl bg-white'>
@@ -98,7 +98,7 @@ const Home = () => {
        <p className='text-center text-sm text-gray-500'>Updated july 2024</p>
       </div>
        {/* Events */}
-       <div className='bg-gray-200 pb-10'>
+       <div className='bg-gray-50 pb-10'>
        <div className=''>
           <h3 className='text-3xl pt-5 text-center text-gray-900 font-serif font-extralight '>Events</h3>
             </div>

@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
-    <div className='bg-customYellow w-full font-meri' >
+    <div className='bg-green-200 w-full font-meri' >
        <div className='flex flex-col md:grid md:grid-cols-3 gap-4 lg:pt-32 lg:px-32 lg:mx-36 pb-8'>
         <div className='font-bold text-xs  mt-4 mx-8'>
           <p>Askal Charity Association</p>

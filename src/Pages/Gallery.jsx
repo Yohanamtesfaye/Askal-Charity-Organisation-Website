@@ -1,5 +1,7 @@
 import React from 'react'
 import event from '../assets/event.jpg'
+import Events from '../../Events'
+import EventsCard from './EventsCard'
 const Gallery = () => {
   return (
     <div>
@@ -18,6 +20,11 @@ const Gallery = () => {
       <p className='p-6 bg-gray-300 text-lg text-center'>
         <span className=' font-bold mr-3'>Events</span>
       </p>
+      <div className=' lg:grid grid-cols-1 my-8 font-serif lg:mx-10 md:grid-cols-4 gap-5'>
+          {Events.map((Event) => (
+          <EventsCard  key= {Event.id} events={Event} />
+        ))}
+      </div>
     </div>
   )
 }
