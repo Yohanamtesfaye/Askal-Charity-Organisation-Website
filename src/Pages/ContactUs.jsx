@@ -42,8 +42,7 @@ const ContactUs = () => {
             <div>
               <p className='text-xl font-bold pt-2'>Address</p>
               <p>
-                Tekle Haymanot Building, 4th floor, Kadisco (In between Gotera & Adey abeba), Addis Ababa
-              </p>
+              Saris,adey abeba,around total gas station "dawi" bulding 2nd floor, Addis Ababa, Ethiopia              </p>
             </div>
           </div>
           <div className='flex items-center space-x-4'>
