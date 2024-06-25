@@ -51,10 +51,7 @@ const Footer = () => {
       </div>
     </div>
     <div className='px-4 mx-8 pb-6'>
-      <iframe
-        src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.0671939036934!2d38.76078781430639!3d8.965956092443042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85fbbfe0b54f%3A0x610ea25afab8859f!2sAskal%20Charity%20Association!5e0!3m2!1sen!2set!4v1676996859338!5m2!1sen!2set'
-        className='w-64 m-3'
-      ></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.1242755613744!2d38.7640207!3d8.960694799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b830059db1b61%3A0x5bb1f433372cad06!2sAskal%20Charity%20Association!5e0!3m2!1sen!2set!4v1719301886616!5m2!1sen!2set" ></iframe>
     </div>
   </div>
   <div className='text-green-900 bg-green-100'>

@@ -32,18 +32,18 @@ const Home = () => {
       <div >
       <div className='bg-gray-50 py-2'>
     <h3 className='text-3xl pt-2 text-center text-gray-900 font-serif font-extralight'>What We Do</h3>
-    <div className='lg:grid grid-cols-1 my-8 font-serif lg:mx-10 md:grid-cols-3 gap-5'>
-      <div className='shadow-lg p-10 max-md:m-5 rounded-xl bg-white'>
-        <img src={basic} width={200} className='mt-5 max-w-full max-h-full mx-auto transform transition-transform duration-500 hover:scale-110'/>
+    <div className='lg:grid grid-cols-1 my-8 font-serif lg:mx-10 md:grid-cols-3 gap-5 '>
+      <div className='shadow-lg p-10 max-md:m-5 rounded-xl bg-white transform transition-transform duration-500 hover:scale-110'>
+        <img src={basic} width={200} className='mt-5 max-w-full max-h-full mx-auto '/>
         <h3 className='text-lg font-bold py-2 text-green-500 mt-7'>Basic needs</h3>
         <p>We offer essential support to families in need, ensuring they have access to basic necessities.</p>
       </div>
-      <div className='shadow-lg p-10 rounded-xl max-md:m-5 bg-white'>
+      <div className='shadow-lg p-10 rounded-xl max-md:m-5 bg-white transform transition-transform duration-500 hover:scale-110'>
         <img src={health} width={200} className='max-w-full max-h-full mx-auto transform transition-transform duration-500 hover:scale-110'/>
         <h3 className='text-lg font-bold py-2 text-green-500'>Health</h3>
         <p>We provide immediate health assistance to children and their parents in need. We are dedicated to support families with urgent medical care.</p>
       </div>
-      <div className='shadow-lg p-10 rounded-xl max-md:m-5 bg-white'>
+      <div className='shadow-lg p-10 rounded-xl max-md:m-5 bg-white transform transition-transform duration-500 hover:scale-110'>
         <img src={teach} width={200} className='max-w-full max-h-full mx-auto transform transition-transform duration-500 hover:scale-110'/>
         <h3 className='text-lg font-bold py-2 text-green-500'>Teach</h3>
         <p>
@@ -52,14 +52,14 @@ const Home = () => {
       </div>
     </div>
     <div className='lg:grid grid-cols-2 my-8 font-serif lg:mx-10 md:grid-cols-3 gap-5 justify-center'>
-      <div className='shadow-lg p-10 rounded-xl max-md:m-5 bg-white'>
+      <div className='shadow-lg p-10 rounded-xl max-md:m-5 bg-white transform transition-transform duration-500 hover:scale-110'>
         <img src={talent} width={200} className='max-w-full max-h-full mx-auto transform transition-transform duration-500 hover:scale-110'/>
         <h3 className='text-lg font-bold py-2 text-green-500'>Talent</h3>
         <p>
           Askal is committed to nurturing children's talents by conducting a two month summer camp which is mainly focused on developing talent.
         </p>
       </div>
-      <div className='shadow-lg p-10 rounded-xl max-md:m-5 bg-white'>
+      <div className='shadow-lg p-10 rounded-xl max-md:m-5 bg-white transform transition-transform duration-500 hover:scale-110'>
         <img src={training} width={200} className='max-w-full max-h-full mx-auto transform transition-transform duration-500 hover:scale-110'/>
         <h3 className='text-lg font-bold py-2 text-green-500'>Life Training</h3>
         <p>
@@ -102,8 +102,8 @@ const Home = () => {
        <div className=''>
           <h3 className='text-3xl pt-5 text-center text-gray-900 font-serif font-extralight '>Events</h3>
             </div>
-            <div className='lg:flex gap-5 my-2 lg:mx-20 '>
-            <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 '>
+            <div className='lg:flex gap-7 my-2 lg:mx-20 '>
+            <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={artevent}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
@@ -114,7 +114,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>   
-              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 '>
+              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={artevent2} className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110'  />
                 </div>
@@ -125,7 +125,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>   
-              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 '>
+              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={trip}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
@@ -136,7 +136,7 @@ const Home = () => {
                   </p>
                 </div>
               </div>   
-              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 '>
+              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={shoehine}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
