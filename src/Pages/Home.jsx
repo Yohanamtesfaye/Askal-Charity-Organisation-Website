@@ -103,7 +103,7 @@ const Home = () => {
           <h3 className='text-3xl pt-5 text-center text-gray-900 font-serif font-extralight '>Events</h3>
             </div>
             <div className='lg:flex gap-7 my-2 lg:mx-20 '>
-            <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
+            <Link to='/eventdescription/1' className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={artevent}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
@@ -113,8 +113,8 @@ const Home = () => {
                   One of many art events organized at Global Hotel on Janurary 21, 2020.
                   </p>
                 </div>
-              </div>   
-              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
+              </Link>   
+              <Link to='/eventdescription/2' className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={artevent2} className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110'  />
                 </div>
@@ -124,8 +124,8 @@ const Home = () => {
                   Using sign language, On May 5 2022, Askal organized an art event for the hearing-impared.
                   </p>
                 </div>
-              </div>   
-              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
+              </Link>   
+              <Link to = '/eventdescription/6'className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={trip}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
@@ -135,8 +135,8 @@ const Home = () => {
                   Askal coordinated educational trips for children we instructed during the summer of 2019
                   </p>
                 </div>
-              </div>   
-              <div className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
+              </Link>   
+              <Link to='/eventdescription/4' className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
                    <img src={shoehine}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
@@ -146,7 +146,7 @@ const Home = () => {
                    On the year 2019, with the motto, "We knelt down, so the future can stand tall," we cleaned shoes for fundraising
                   </p>
                 </div>
-              </div>   
+              </Link>   
             </div>
        </div>
     {/* Gift */}
