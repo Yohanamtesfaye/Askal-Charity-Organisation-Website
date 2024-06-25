@@ -22,7 +22,7 @@ const Gallery = () => {
       </p>
       {/* filter */}
 
-      <div className=' lg:grid grid-cols-1 px-20 font-serif lg:mx-10 md:grid-cols-4 gap-5 '>
+      <div className=' lg:grid grid-cols-1 lg:px-20 max-md:px-10 font-serif lg:mx-10 md:grid-cols-4 gap-5 '>
           {Events.map((Event) => (
           <EventsCard  key= {Event.id} events={Event} showdescription={false}  />
         ))}

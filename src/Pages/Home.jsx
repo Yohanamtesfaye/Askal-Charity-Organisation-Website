@@ -9,7 +9,7 @@ import { BsDot } from 'react-icons/bs';
 import artevent from '../assets/art-event.jpg'
 import artevent2 from '../assets/art-event-2.jpg'
 import trip from '../assets/trip.jpg'
-import shoehine from '../assets/shoehine.jpg'
+import shoehine from '../assets/shoeshine.jpg'
 import Gift from '../assets/Gift.jpg'
 import training from '../assets/training.jpg'
 import { Link } from 'react-router-dom'
@@ -34,7 +34,7 @@ const Home = () => {
     <h3 className='text-3xl pt-2 text-center text-gray-900 font-serif font-extralight'>What We Do</h3>
     <div className='lg:grid grid-cols-1 my-8 font-serif lg:mx-10 md:grid-cols-3 gap-5 '>
       <div className='shadow-lg p-10 max-md:m-5 rounded-xl bg-white transform transition-transform duration-500 hover:scale-110'>
-        <img src={basic} width={200} className='mt-5 max-w-full max-h-full mx-auto '/>
+        <img src={basic} width={200}  className='mt-5 max-w-full max-h-full mx-auto '/>
         <h3 className='text-lg font-bold py-2 text-green-500 mt-7'>Basic needs</h3>
         <p>We offer essential support to families in need, ensuring they have access to basic necessities.</p>
       </div>
@@ -105,7 +105,7 @@ const Home = () => {
             <div className='lg:flex gap-7 my-2 lg:mx-20 '>
             <Link to='/eventdescription/1' className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
-                   <img src={artevent}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
+                   <img src={artevent}    className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
                 <div>
                   <h3 className='text-lg font-medium pt-8 text-teal-600'>Art Event</h3>
@@ -116,7 +116,7 @@ const Home = () => {
               </Link>   
               <Link to='/eventdescription/2' className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
-                   <img src={artevent2} className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110'  />
+                   <img src={artevent2}  className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110'  />
                 </div>
                 <div>
                   <h3 className='text-lg font-medium text-teal-600 mt-10'>Led the first sign language led art event in Ethiopia</h3>
@@ -127,7 +127,7 @@ const Home = () => {
               </Link>   
               <Link to = '/eventdescription/6'className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
-                   <img src={trip}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
+                   <img src={trip}    className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
                 <div>
                   <h3 className='text-lg font-medium  text-teal-600 mt-5'>Educational Trip for Children</h3>
@@ -138,7 +138,7 @@ const Home = () => {
               </Link>   
               <Link to='/eventdescription/4' className=' shadow-lg p-10 rounded-xl bg-white max-md:m-5 transform transition-transform duration-500 hover:scale-110 '>
                 <div className='max-w-full max-h-full mx-auto mr-10'>
-                   <img src={shoehine}   className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
+                   <img src={shoehine}    className='mt-5 max-w-full max-h-full mx-auto  transform transition-transform duration-500 hover:scale-110' />
                 </div>
                 <div>
                   <h3 className='text-lg font-medium  text-teal-600 mt-5'>Shoe Cleaning Fundraiser</h3>
