@@ -1,5 +1,4 @@
 import React from 'react'
-
 import family from '../assets/fam.jpg';
 import friend from "../assets/friends.jpg";
 import mission from "../assets/mission.png";

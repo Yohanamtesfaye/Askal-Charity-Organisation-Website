@@ -57,7 +57,7 @@ const Navbar = () => {
           <div className='flex justify-center items-center space-x-8'>
             <div className='hover:underline hover:text-red-600 font-bold p-0'><Link to='/'>Home</Link></div>
             <div className='hover:underline hover:text-red-600 font-bold p-0'><Link to='/aboutus'>About Us</Link></div>
-            <div className='hover:underline hover:text-red-600 font-bold'><Link to='/gallery'>Gallery</Link></div>
+            <div className='hover:underline hover:text-red-600 font-bold'><Link to='/events'>Events</Link></div>
             <div className='hover:underline hover:text-red-600 font-bold'><Link to='/contactus'>Contact Us</Link></div>
             <div className="relative group">
               <div className='border-red-600 border text-red-500 font-bold'>
