@@ -12,6 +12,7 @@ import Donate from './Pages/Donate'
 import ContactUs from './Pages/ContactUs'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+import EventDescription from './Pages/EventDescription'
 
 function App() {
   
@@ -26,7 +27,8 @@ function App() {
               <Route path='/aboutus' element={<AboutUs/>}/>
               <Route path='/registervolunteer' element={<RegisterVolunteer/>}/>
               <Route path='/registermember' element={<RegisterMember/>}/>
-              <Route path='/gallery' element={<Gallery/>}/>
+              <Route path='/events' element={<Gallery/>}/>
+              <Route path ='/eventdescription/:id' element={<EventDescription/>}/>
               <Route path='/donate' element={<Donate/>}/>
               <Route path='/contactus' element={<ContactUs/>}/>
             </Routes>
