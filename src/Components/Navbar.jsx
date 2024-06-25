@@ -65,9 +65,7 @@ const Navbar = () => {
                 <div className="absolute bg-white w-full text-center text-red-500 shadow-lg rounded-md py-2 px-4 hidden group-hover:block z-50">
                   <ul>
                     <li><Link to='/registervolunteer' className='hover:underline text-red-500'>Volunteer</Link></li>
-                    <li><Link to='/registermember' className='hover:underline text-red-500'>Member</Link></li>
                     <li><Link to='/registerpartner' className='hover:underline text-red-500'>Partner</Link></li>
-                    <li><Link to='/registersupporter' className='hover:underline text-red-500'>Supporter</Link></li>
                   </ul>
                 </div>
               </div>
