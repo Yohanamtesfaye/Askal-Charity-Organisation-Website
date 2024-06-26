@@ -24,7 +24,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className='font-meri '>
+    <div className='font-serif '>
       <div className='bg-gray-200  p-4  text-center font-bold text-5xl'> <h1>Contact Us </h1></div>
       <div className='lg:flex lg:m-12 shadow-2xl rounded-2xl'>
       <div className='bg-customGreen text-white lg:p-8  my-3 px-2 lg:w-1/2 rounded-2xl'>

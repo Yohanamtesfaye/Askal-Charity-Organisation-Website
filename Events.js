@@ -1,7 +1,7 @@
 import artevent from './src/assets/art-event.jpg'
 import artevent2 from './src/assets/art-event-2.jpg'
 import trip from './src/assets/trip.jpg'
-import shoehine from './src/assets/shoehine.jpg'
+import shoehine from './src/assets/shoeshine.jpg'
 import basic from './src/assets/basic.jpg'
 import beforeandafter from './src/assets/beforeandafter.jpg'
 import bagdonation from './src/assets/bagdonation.jpg'
@@ -11,7 +11,8 @@ const Events =[
     id: 1,
     img:artevent,
     topic:"Art Night",
-    desc:"One of many art events organized at Global Hotel on Janurary 21, 2020"
+    desc:"One of many art events organized at Global Hotel on Janurary 21, 2020",
+    imgs:[artevent, artevent2,trip],
   },
   {
     id: 2,
