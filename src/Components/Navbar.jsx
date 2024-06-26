@@ -38,9 +38,7 @@ const Navbar = () => {
                 <div className="absolute bg-white w-full text-center text-red-500 shadow-lg rounded-md py-2 px-4 hidden group-hover:block">
                   <ul>
                     <li><Link to='/registervolunteer' onClick={handleNav} className='hover:underline'>Volunteer</Link></li>
-                    <li><Link to='/registermember' onClick={handleNav} className='hover:underline'>Member</Link></li>
                     <li><Link to='/registerpartner' onClick={handleNav} className='hover:underline'>Partner</Link></li>
-                    <li><Link to='/registersupporter' onClick={handleNav} className='hover:underline'>Supporter</Link></li>
                   </ul>
                 </div>
               </div>
