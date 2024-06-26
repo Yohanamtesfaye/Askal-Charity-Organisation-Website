@@ -102,7 +102,7 @@ const AboutUs = () => {
         <div className='rounded w-40 mx-auto my-1'>
             <img src={friend} alt="Friend" className='w-full rounded-full' />
         </div>
-            <div className='p-2'>BELAY NIGUSE</div>
+            <div className='p-2'>BELAY NIGUSIE</div>
             <div className='p-2'>FOUNDER & CEO</div>
             <div className=' bg-green-500 text-white rounded-md p-2 hover:text-green-600'>
                 <form action='mailto:belobelay@gmail.com'>
