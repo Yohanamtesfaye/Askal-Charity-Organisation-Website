@@ -13,6 +13,7 @@ import ContactUs from './Pages/ContactUs'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 import EventDescription from './Pages/EventDescription'
+import RegisterPartner from './Pages/RegisterPartner'
 
 function App() {
   
@@ -26,7 +27,7 @@ function App() {
               <Route path='/' element={<Home/>}/>
               <Route path='/aboutus' element={<AboutUs/>}/>
               <Route path='/registervolunteer' element={<RegisterVolunteer/>}/>
-              <Route path='/registermember' element={<RegisterMember/>}/>
+              <Route path='/registerpartner' element={<RegisterPartner/>}/>
               <Route path='/events' element={<Gallery/>}/>
               <Route path ='/eventdescription/:id' element={<EventDescription/>}/>
               <Route path='/donate' element={<Donate/>}/>
